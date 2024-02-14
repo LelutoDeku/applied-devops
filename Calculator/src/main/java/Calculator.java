@@ -11,5 +11,6 @@ public class Calculator {
     public static void main(String[] args)  {
         Calculator c = new Calculator();
         c.addition(2, 3);
+        c.multiplication(2, 3);
     }
 }
