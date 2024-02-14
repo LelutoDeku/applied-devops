@@ -4,6 +4,10 @@ public class Calculator {
         return a + b;
     }
 
+    public int subtraction(int a, int b)   {
+        return a - b;
+    }
+
 
     public int multiplication(int a, int b)   {
         return a * b;
@@ -18,6 +22,8 @@ public class Calculator {
     public static void main(String[] args)  {
         Calculator c = new Calculator();
         c.addition(2, 3);
+
+        c.subtraction(5, 3);
 
         c.multiplication(2, 3);
 
